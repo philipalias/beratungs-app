@@ -57,7 +57,8 @@ public class DBconnection extends Activity {
     public void postData() {  
 		// Create a new HttpClient and Post Header
 		HttpClient httpclient = new DefaultHttpClient();
-		HttpPost httppost = new HttpPost("http://jaydee85.ja.funpic.de/app/dbService.php");
+		HttpPost httppost = new HttpPost("http://jd.mazebert.com/dbService.php");
+		//HttpPost httppost = new HttpPost("http://jaydee85.ja.funpic.de/app/dbService.php");
 		//HttpPost httppost = new HttpPost("http://jaydee.bplaced.net/app/dbService.php");
 		//HttpPost httppost = new HttpPost("http://jaydee.site11.com/app/dbService.php");
 		
